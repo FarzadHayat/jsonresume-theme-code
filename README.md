@@ -1,4 +1,4 @@
-# jsonresume-theme-even
+# jsonresume-theme-code
 
 [![npm package version](https://img.shields.io/npm/v/jsonresume-theme-even.svg)](https://www.npmjs.com/package/jsonresume-theme-even)
 [![Build status](https://img.shields.io/github/actions/workflow/status/rbardini/jsonresume-theme-even/main.yml)](https://github.com/rbardini/jsonresume-theme-even/actions)
@@ -21,7 +21,7 @@ Inspired by [jsonresume-theme-flat](https://github.com/erming/jsonresume-theme-f
 ## Installation
 
 ```console
-npm install jsonresume-theme-even
+npm install jsonresume-theme-code
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ npx resume export resume.html
 [Resumed](https://github.com/rbardini/resumed) requires you to install the theme, since it does not come with any by default. It will then automatically load and use _Even_ when rendering a resume:
 
 ```console
-npm install resumed jsonresume-theme-even
+npm install resumed jsonresume-theme-code
 npx resumed render
 ```
 
@@ -49,7 +49,7 @@ npx resumed render
 _Even_ comes with a barebones CLI that reads resumes from `stdin` and outputs HTML to `stdout`. This allows usage without any resume builder tools:
 
 ```console
-npx jsonresume-theme-even < resume.json > resume.html
+npx jsonresume-theme-code < resume.json > resume.html
 ```
 
 ## Options
